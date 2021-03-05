@@ -1,0 +1,144 @@
+.main {
+    width: 100%;
+    background-color: #f6f6f6;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #323232;
+}
+.nHeader {
+    width: 990px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.centerBox {
+    width: 990px;
+    margin: 1px auto;
+    min-height: 400px;
+    background-color: #f9f9f9;
+    font-size: 12px;
+}
+.selectCard {
+    width: 100%;
+    /* min-height: 400px; */
+    background-color: #fff;
+    margin-top: 10px;
+}
+/* 选项卡 */
+.btns {
+    width: 50%;
+    display: flex;
+}
+.btns div {
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    background-color: #ececec;
+    margin-right: 2px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+.active {
+    background-color: #fff !important;  
+    border-top: 1px solid #eee;
+    margin-top: -2px;
+}
+.cardList {
+    position: relative;
+    width: 100%;
+
+}
+.cardList .card {
+    display: none;
+}
+.zhifubao {
+    width: 870px;
+    padding: 40px;
+}
+.fenqi {
+    width: 870px;
+    padding: 30px 40px;
+}
+.goZhifu {
+    width: 96px;
+    text-align: center;
+    background-color: #E83C39;
+    color: #fff;
+    display: inline-block;
+    font-family: microsoft yahei;
+    padding: 7px 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.goZhifu1 {
+    width: 96px;
+    text-align: center;
+    background-color: #ececec;
+    color: #fff;
+    display: inline-block;
+    font-family: microsoft yahei;
+    padding: 7px 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.wenti {
+    margin-top: 60px;
+}
+.weixin {
+    width: 870px;
+    padding: 40px;
+}
+.fenqiBox {
+    border: 1px solid #eee;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.fenqiBox:hover {
+    border: 1px solid brown;
+}
+.smallBox {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.imgBox {
+    border: 1px solid #eee;
+    margin-left: 10px;
+}
+.chuxu {
+    width: 870px;
+    padding: 20px 40px;
+}
+.chuxuBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dianji {
+    height: 38px;
+    width: 170px;
+    border: 1px solid #eee;
+    color: brown;
+    text-indent: 40px;
+    cursor: pointer;
+}
+.smallBox .imgBox:hover {
+    border: 1px solid brown;
+    cursor: pointer;
+}
+.dianji:hover {
+    border: 1px solid brown;
+
+}
+.table {
+
+}
+.table1 {
+    display: none;
+}

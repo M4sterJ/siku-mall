@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>填写核对订单</title>
+    <link rel="stylesheet" href="../css/dingdan.css">
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/dingdan.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="nHeader">
+                <img class="goBack" src="../img/logo-login.png" alt="">
+                <img src="../img/cartTitle1.jpg" alt="">
+            </div>
+        </div>
+        <div class="centerBox">
+            <div class="userTit">收货人相关信息</div>
+
+            <div class="userMsg">
+                <div style="padding-bottom:20px ;">
+                    <span style="color: #666;font-weight: bold;">收货人信息</span>
+                    <span class="change">【修改】</span>
+                </div>
+                <div class="changeMsg">
+                    <p style="padding: 0 0 10px 10px;">
+                        <span id="showName">艾希</span>
+                        <span id="showPhone">132****8888</span>
+                    </p>
+                    <p id="showAddress" style="padding-left: 10px;">山东省青岛市城阳区弗雷尔卓德</p>
+                </div>
+                <div class="newAddress">
+                    <div class="userL">
+                        <input type="radio" name="a" checked id="useli" class="bb">
+                        <span class="span1">艾希</span>
+                        <span class="span2">山东省青岛市城阳区弗雷尔卓德</span>
+                        <span class="span3">132****8888</span>
+                        <span class="dell">删除</span>
+                    </div>
+                    <div class="aaa" style="padding-top: 10px;">
+                        <input type="radio" name="a" id="newA">
+                        <span>使用新地址</span>
+                        <div class="newAdd">
+                            <p>
+                                <span style="color: red;">*</span>
+                                <span style="margin-right: 20px;">收货人：</span>
+                                <input type="text" id="uName">
+                            </p>
+                            <p class="nAd">
+                                <span style="color: red;">*</span>
+                                <span>所在地区：</span>
+                                <!-- <input id="uSheng" type="text" placeholder="省"> -->
+                                <select name="" id="uSheng">
+                                    <option value="">选择省</option>
+                                    <option value="山东省">山东省</option>
+                                    <option value="河北省">河北省</option>
+                                    <option value="广东省">广东省</option>
+                                </select>
+                                <select name="" id="uShi">
+                                    <option value="">选择市</option>
+                                    <option value="青岛市">青岛市</option>
+                                    <option value="潍坊市">潍坊市</option>
+                                    <option value="烟台市">烟台市</option>
+                                </select>
+                                <select name="" id="uXian">
+                                    <option value="">选择县</option>
+                                    <option value="平度县">平度县</option>
+                                    <option value="莱西县">莱西县</option>
+                                    <option value="莱阳县">莱阳县</option>
+                                </select>
+                            </p>
+                            <p>
+                                <span style="color: red;">*</span>
+                                <span style="margin-right: 10px;">详细地址：</span>
+                                <input id="uXiangxi" type="text">
+                            </p>
+                            <p class="nPh">
+                                <span style="color: red;">*</span>
+                                <span>手机号码：</span>
+                                <input id="uPhone" type="text">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ok">确定收货地址</div>
+                    <p id="errTips">请填写收货地址</p>
+                </div>
+            </div>
+
+            <div class="peisong">
+                <p style="font-size: 14px;font-weight: bold;padding: 20px 0 0 30px;">配送方式</p>
+                <div class="methods">
+                    <div style="padding-left: 30px;">
+                        <input type="radio" name="" id="">
+                        <span>快递送货(大陆商品)</span>
+                        <span style="margin-left: 60px;">支持绝大数银行借记卡及部分银行信用卡</span>
+                    </div>
+                    <div style="padding: 5px 0 5px 40px; border-left: 1px dashed #e5e5e5;margin-right: 400px;">
+                        <img style="width: 80px;height: 80px;" src="../img/card1-1.png" alt="">
+                    </div>
+                </div>
+                <div class="methods">
+                    <div style="padding-left: 30px;">
+                        <input type="radio" name="" id="">
+                        <span>快递送货(在库商品1)</span>
+                        <span style="margin-left: 60px;">支持绝大数银行借记卡及部分银行信用卡</span>
+                    </div>
+                    <div style="padding: 5px 0 5px 40px; border-left: 1px dashed #e5e5e5;margin-right: 400px;">
+                        <img style="width: 80px;height: 80px;" src="../img/aodi.jpg" alt="">
+                    </div>
+                </div>
+                <div class="methods">
+                    <div style="padding-left: 30px;">
+                        <input type="radio" name="" id="">
+                        <span>快递送货(在库商品2)</span>
+                        <span style="margin-left: 60px;">支持绝大数银行借记卡及部分银行信用卡</span>
+                    </div>
+                    <div style="padding: 5px 0 5px 40px; border-left: 1px dashed #e5e5e5;margin-right: 400px;">
+                        <img style="width: 80px;height: 80px;" src="../img/sk2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="zhifu">
+                <p class="zhifuT">支付方式</p>
+                <div style="padding-left: 30px;margin: 10px 0;">
+                    <input type="radio" name="" id="">
+                    <span>在线支付</span>
+                    <span style="margin-left: 120px;">支持绝大数银行借记卡及部分银行信用卡</span>
+                </div>
+                <div class="zhifuC">确认配送支付方式</div>
+            </div>
+            <div class="shenfenz">
+                <p class="shenfenz1">清关身份信息  <span style="margin-left: 50px;color: orange;">应中国海关要求，所有个人国际邮递包裹需实名制申报，需您提供以下身份信息</span></p>
+                <div style="padding-left: 30px;margin: 10px 0;">
+                    <input type="radio" name="" id="">
+                    <span>身份证姓名：艾希</span>
+                    <span>身份证号</span>
+                    <input type="text" name="" id="">
+                </div>
+                <p style="margin-left: 120px;">您也可以选择直接将身份证的正反面电子版的照片上传至“我的寺库-账户信息”，我们将督促物流合作伙伴优先为您办理清关</p>
+                <div class="shenfenC">确认</div>
+            </div>
+            <div class="qingdan">
+                <p class="qingdanTips">商品清单</p>
+                <div class="qingdanTitle">
+                    <div class="proName">商品名称</div>
+                    <div class="fahuo">发货地</div>
+                    <div class="vipPrice">会员价</div>
+                    <div class="proCount">数量</div>
+                    <div class="yunfei">运费</div>
+                    <div class="sumOfMoney">金额小计</div>
+            </div>
+            <div class="qingdanTitle">
+                <div class="proName">Nike耐克 男鞋 高帮 板鞋 小白鞋 2020新款 轻便 运动鞋 休闲鞋<br> 颜色：白色    尺码：欧码40</div>
+                <div class="fahuo">中国大陆</div>
+                <div class="vipPrice">719元	</div>
+                <div class="proCount">3</div>
+                <div class="sumOfMoney">0元</div>
+                <div class="sumOfMoney">2157元</div>
+            </div>
+            <div class="qingdanTitle">
+                <div class="proName">【包税】SK-II/SK2 神仙水护肤套装（神仙水230ml+清莹露230ml）<br>尺码：2件套    </div>
+                <div class="fahuo">中国香港</div>
+                <div class="vipPrice">1439元	</div>
+                <div class="proCount">1</div>
+                <div class="sumOfMoney">0元</div>
+                <div class="sumOfMoney">1439元</div>
+            </div>
+            <div class="qingdanTitle">
+                <div class="proName">明星车库租车 奥迪R8 日租【租赁方：北京星库汽车科技有限公司】</div>
+                <div class="fahuo">中国大陆</div>
+                <div class="vipPrice">500元	</div>
+                <div class="proCount">1</div>
+                <div class="sumOfMoney">0元</div>
+                <div class="sumOfMoney">500元</div>
+            </div>
+            <div class="qingdanTitle">
+                <div class="proName">	
+                    【ins网红同款】APM Monaco大小星星项链女六芒星流星锁骨链 <br>
+                    颜色：银色     尺码：均码    </div>
+                <div class="fahuo">中国大陆</div>
+                <div class="vipPrice">489元	</div>
+                <div class="proCount">1</div>
+                <div class="sumOfMoney">0元</div>
+                <div class="sumOfMoney">489元</div>
+            </div>
+            <div class="fapiao">
+                <input type="checkBox" name="" id="">发票
+            </div>
+            </div>
+            <div class="tijiao">
+                <p>7件商品，商品金额总计：5,085.00元</p>
+                <p>0件包装，包装金额总计：0元</p>
+                <p>免运费：0元</p>
+                <p>应付总额：<span style="font-size: 30px;color:red;">5,085.00</span> 元</p>
+                <div style="margin-top: 20px;display: flex;justify-content: space-between;">
+                    <span class="back">返回修改购物车</span>
+                    <span class="tijiaodingdan">提交订单</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <img style="display: block; margin: 0 auto;" src="../img/foo.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

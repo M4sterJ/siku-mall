@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #fdf8f4;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #333231;
+}
+header {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .headerUl{
+    display: flex;
+    font-size: 14px;
+}
+.header .headerUl li {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.header .headerUl li:hover {
+    color: #f19108;
+}
+.header .headerUl li:hover a{
+    color: #f19108;
+}
+.container {
+    width: 1200px;
+    height: 720px;
+    margin: 0 auto;
+    background: url(../img/login-bg.jpg) no-repeat left;
+    background-size: cover;
+}
+.login {
+    width: 310px;
+    padding: 30px 35px;
+    margin-top: 120px;
+    background-color: #fff;
+    position: relative;
+    float: right;
+    box-shadow: 0 0 23px rgba(0, 0, 0, .1);
+}
+footer {
+    width: 100%;
+    height: 455px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+.nfooter {
+    width: 1200px;
+    height: 100%;
+    margin: 70px auto;
+}
+.nfooterList {
+    display: flex;
+    margin-top: 70px;
+}
+.nfooterList li {
+    width: 236px;
+}
+.nfooterList li p{
+    padding: 8px 0;
+}
+.nfooterList li p:hover {
+    color: #f19108;
+    cursor: pointer;
+}
+.nfooterInfo {
+    width: 1200px;
+}
+.nfooterInfo .pInfo span{
+    margin-right: 20px;
+}
+.pInfo {
+    margin-top: 20px;
+}
+.pInfo2 {
+    background-color: #c4c4c4;
+    padding: 10px 0;
+    width: 450px;
+    text-align: center;
+    margin-top: 20px;
+}
+.pInfo3 {
+        margin-top: 20px;
+}
+.pInfo3 img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+/* 登录方式 */
+.btns {
+    font-size: 20px;
+    color: #666;
+    display: flex;
+    justify-content: space-around;
+}
+.btns span {
+    cursor: pointer;
+}
+.qrbox {
+    width: 310px;
+    height: 260px;
+    text-align: center;
+    margin-top: 40px;
+}
+/* 扫码登陆 js效果 */
+.qrboxSaoma {
+    position: relative;
+}
+.saoma1 {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    transition: all .5s;
+    /* z-index: 100; */
+}
+.saoma2 {
+    width: 160px;
+    height: 173px;
+    position: absolute;
+    top: 0;
+    right: -5%;
+    transition: all .5s;
+    opacity: 0;
+    /* z-index: 1; */
+}
+.qrbox img {
+    width: 192px;
+    height: 192px;
+}
+.saoyisao {
+    margin-top: 10px;
+}
+.saoyisao a {
+    color: #f19108;
+    font-size: 14px;
+    padding: 0 4px;
+    font-weight: 600;
+}
+.thirdSoftware {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+.thirdSoftware img {
+    width: 16px;
+    height: 16px;
+}
+.msg {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+}
+.free {
+    cursor: pointer;
+}
+.qq:hover span{
+    color: rgb(168, 8, 8);
+    cursor: pointer;
+}
+.weixin:hover span{
+    color: rgb(168, 8, 8);
+    cursor: pointer;
+}
+.forget:hover {
+    cursor: pointer;
+    color: rgb(168, 8, 8);
+}
+.active {
+    color: #f19108;
+}
+
+/* 判断登录方式 */
+.login_saoma {
+    display: block;
+}
+.login_mima {
+    display: none;
+    height: auto;
+    position: relative;
+    margin-top: 60px;
+}
+/* 密码登录样式 */
+.in_style {
+    width: 298px;
+    height: 20px;
+    line-height: 20px;
+    padding: 14px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid rgb(222,222,222);
+    transition: border linear .2s, 
+    box-shadow linear .2s;
+}
+/* icon */
+.login_user {
+    position: relative;
+    margin-top: 10px;
+}
+.login_user i {
+    position: absolute;
+    padding: 5px;
+    right: 0;
+    top: 12px;
+    font-size: 16px;
+    color: #666;
+}
+.login_password {
+    position: relative;
+    margin-top: 20px;
+}
+.login_password i {
+    position: absolute;
+    padding: 5px;
+    right: 0;
+    top: 12px;
+    font-size: 16px;
+    color: #666;
+}
+/* 验证码部分样式 */
+.login_code {
+    width: 100%;
+    text-align: start;
+    margin-top: 20px;
+}
+.codeCont {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+#userCode {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#999;
+    padding: 10px;
+    outline: none;
+    box-shadow: 0 3px 3px #eee;
+    transition: border linear .2s, 
+    box-shadow linear .2s;
+}
+#codeBox {
+    width: 100px;
+    height: 64px;
+    background-color:#f19108;
+    color: #fff;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 25px;
+    cursor: pointer;
+    /* 文本不能选中 */   
+    user-select: none;
+}
+.rememberMe {
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: -123px;
+}
+.toLogin {
+    width: 100%;
+    background-color: #f19108;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 25px;
+}
+/* 表单验证 */
+#errMsg {
+    position: absolute;
+    top: -35px;
+    width: 100%;
+    display: none;
+    background-color: #ffffcf;
+    border: 1px solid #ffac76;
+    font-size: 12px;
+    color: #ff0200;
+    padding: 5px 0;
+    text-indent: 20px;
+}

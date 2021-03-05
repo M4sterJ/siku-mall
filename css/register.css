@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #fdf8f4;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #333231;
+}
+header {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .headerUl{
+    display: flex;
+    font-size: 14px;
+}
+.header .headerUl li {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.header .headerUl li:hover {
+    color: gold;
+}
+.header .headerUl li:hover a{
+    color: gold;
+}
+.container {
+    width: 1200px;
+    height: 720px;
+    margin: 0 auto;
+    background: url(../img/login-bg.jpg) no-repeat left;
+    background-size: cover;
+}
+.register {
+    width: 310px;
+    height: 512px;
+    padding: 30px 35px;
+    margin-top: 120px;
+    background-color: #fff;
+    position: relative;
+    font-size: 14px;
+    float: right;
+    box-shadow: 0 0 23px rgba(0, 0, 0, .1);
+}
+/* 注册部分内容css转到最下方 */
+footer {
+    width: 100%;
+    height: 455px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+.nfooter {
+    width: 1200px;
+    height: 100%;
+    margin: 70px auto;
+}
+.nfooterList {
+    display: flex;
+    margin-top: 70px;
+}
+.nfooterList li {
+    width: 236px;
+}
+.nfooterList li p{
+    padding: 8px 0;
+}
+.nfooterList li p:hover {
+    color: gold;
+    cursor: pointer;
+}
+.nfooterInfo {
+    width: 1200px;
+}
+.nfooterInfo .pInfo span{
+    margin-right: 20px;
+}
+.pInfo {
+    margin-top: 20px;
+}
+.pInfo2 {
+    background-color: #c4c4c4;
+    padding: 10px 0;
+    width: 450px;
+    text-align: center;
+    margin-top: 20px;
+}
+.pInfo3 {
+        margin-top: 20px;
+}
+.pInfo3 img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+/* 注册 */
+.userNameTitle {
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    padding-top: 10px;
+    margin: 20px 0;
+}
+.userPasswordTitle {
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    margin: 20px 0;
+}
+.userConfirmTitle {
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    margin: 20px 0;
+}
+.register .inputDiv input {
+    width: 298px;
+    height: 20px;
+    padding: 10px 5px;
+    border: 1px solid #dedede;
+    font-size: 14px;
+    font-weight: bold;
+    transition: border linear .2s, 
+    box-shadow linear .2s;
+    outline: none;
+}
+.userTitle {
+    color:#111;
+}
+.toLogin {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f19108;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+.vipCode {
+    margin: 10px 0;
+}
+.iKnow, .msg {
+    margin: 10px 0;
+    color: #999;
+}
+.free {
+    cursor: pointer;
+}

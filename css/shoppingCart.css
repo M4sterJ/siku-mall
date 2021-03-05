@@ -1,0 +1,273 @@
+.main {
+    width: 100%;
+    background-color: #f6f6f6;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #323232;
+}
+.nHeader {
+    width: 990px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.centerBox {
+    width: 990px;
+    margin: 30px auto;
+}
+.cartTitle {
+    width: 100%;
+    height: 50px;
+    background-color: #ededed;
+    display: flex;
+    color: #999;
+    line-height: 50px;
+    font-size: 14px;
+}
+.cartTitle div {
+    text-align: center;
+}
+.selectAll {
+    width: 75px;
+    height: 100%;
+}
+.selectThis {
+    width: 75px;
+    height: 100%;
+    line-height: 95px;
+}
+.proName {
+    width: 360px;
+    height: 100%;
+}
+.thisName {
+    width: 360px;
+    height: 100%;
+    text-align: start;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.thisName img {
+    width: 82px;
+    height: 82px;
+    margin-right: 15px;
+}
+
+.fahuo {
+    width: 96px;
+    height: 100%;
+    
+}
+.thisFahuo {
+    width: 96px;
+    height: 100%;
+}
+.vipPrice {
+    width: 96px;
+    height: 100%;
+}
+.thisPrice {
+    width: 96px;
+    height: 100%;
+}
+.proCount {
+    width: 140px;
+    height: 100%;
+}
+.thisCount {
+    width: 140px;
+    height: 100%;
+}
+.countBox {
+    display: flex;
+    width: 70px;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #eee;
+    margin-left: 37px;
+}
+.thisCount input {
+    width: 30px;
+    outline: none;
+    border: none;
+    padding: 2.5px 0;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+.del {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.del:hover {
+    background-color: crimson;
+    color: #fff;
+}
+.add {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.add:hover {
+    background-color: crimson;
+    color: #fff;
+}
+.sumOfMoney {
+    width: 110px;
+    height: 100%;
+}
+.thisSum {
+    width: 110px;
+    height: 100%;
+    color: red;
+    font-weight: 600;
+}
+.control {
+    width: 110px;
+    height: 100%;
+}
+.thisContorl {
+    width: 110px;
+    height: 100%;
+    color: #333;
+}
+.thisContorl:hover {
+    color: red;
+    cursor: pointer;
+}
+.proList {
+    width: 100%;;
+}
+.proCard {
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    color: #666;
+    padding: 20px 0 15px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    cursor: pointer;
+}
+.settlement {
+    width: 915px;
+    background-color: #fff;
+    margin-top: 10px;
+    font-size: 13px;
+    padding: 15px 45px 25px 30px;
+}
+.settlement1 {
+    display: flex;
+    padding: 5px 0;
+    justify-content: flex-end;
+}
+.settlement2 {
+    padding: 5px 0;
+    justify-content: flex-end;
+    display: flex;
+}
+.settlement3 {
+    display: flex;
+    padding: 5px 0;
+    justify-content: flex-end;
+}
+.settlement4 {
+    margin-right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+.settlementBtn {
+    padding: 10px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.continue {
+    padding: 5px 15px;
+    border: 1px solid #e93b39;
+    color: #e93b39;
+    cursor: pointer;
+    line-height: 25px;
+}
+.now {
+    padding: 10px 40px;
+    background-color: #e93b39;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.likeBox {
+    width: 100%;
+    height: 300px;
+}
+.like {
+    height: 38px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ececec;
+    line-height: 38px;
+    text-indent: 20px;
+}
+.lunbo {
+    width: 930px;
+    height: 190px;
+    padding: 30px;
+    border: 1px solid #000;
+    position: relative;
+    overflow: hidden;
+    line-height: 190px;
+    background-color: #fff;
+}
+.showPanel img {
+    display: block;
+    float: left;
+}
+.panel {
+    width: 910px;
+    height: 190px;
+    overflow: hidden;
+    margin-left: 8px;
+    position: relative;
+}
+.showPanel {
+    width: 3640px;
+    height: 190px;
+    position: absolute;
+    left: 0;
+    transition: 1s;
+}
+.left {
+    position: absolute;
+    top: 28px;
+    cursor: pointer;
+    left: -10px;
+}
+.left i{
+    font-size: 50px;
+    font-weight: 800;
+    color: #999;
+}
+.right i{
+    font-size: 60px;
+    color: #999;
+    font-weight: 800;
+}
+.right{
+    position: absolute;
+    cursor: pointer;
+    top: 28px;
+    right: -10px;
+}
+.delPro:hover {
+    color: red;
+    cursor: pointer;
+}

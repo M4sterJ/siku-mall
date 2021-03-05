@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <script src="../js/tool.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/publicData.js"></script>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <header>
+                <img src="../img/logo-login.png" alt="">
+                <ul class="headerUl">
+                    <li><a href="../index.html">寺库首页</a></li>
+                    <li>收藏寺库</li>
+                    <li>寺库APP</li>
+                </ul>
+            </header>
+        </div>
+        <div class="container">
+            <div class="login">
+                <div class="btns">
+                    <span id="saoma" class="active">扫码登陆</span>
+                    <span id="mima" >密码登录</span>
+                </div>
+                <div id="saomaBox" class="login_saoma">
+                    <div class="qrbox qrboxSaoma">
+                        <img class="saoma1" src="../img/login-code.png" alt="">
+                        <img class="saoma2" src="../img/login-phone.jpg" alt="">
+                    </div>
+                <p class="saoyisao">打开<a href="">寺库APP</a>扫一扫登陆</p>
+                </div>
+                <div id="mimaBox" class="login_mima">
+                    <span id="errMsg">123123</span>
+                    <div class="qrbox">
+                        <div class="login_user">
+                            <input class="in_style" id="userName" type="text" placeholder="用户名/手机号/邮箱">
+                            <i class="iconfont icon-user1"></i>
+                        </div>
+                        <div class="login_password">
+                            <input class="in_style" id="userPassword" type="password" placeholder="密码">
+                            <i class="iconfont icon-suo"></i>
+                        </div>
+                        <!-- 验证码 -->
+                        <div class="login_code">
+                            <p>验证码：</p>
+                            <div class="codeCont">
+                                <input id="userCode" type="text">
+                                <div id="codeBox"></div>
+                            </div>
+                        </div>
+                        <label class="rememberMe">
+                            <input type="checkbox" checked="checked" id="rememberUserLoginInfo">
+                            记住账号
+                        </label>
+                    </div>
+                    <div class="toLogin">立即登录</div>
+                </div>
+                <div class="thirdSoftware">
+                    <p style="margin-bottom: 20px;">使用合作网站账号登录</p>
+                    <p>
+                        <span class="qq">
+                            <img src="../img/qq.jpg" alt="">
+                            <span>QQ</span>
+                        </span>
+                        <span class="weixin">
+                            <img style="margin-left: 40px;" src="../img/weixin.png" alt="">
+                            <span>微信</span>
+                        </span>
+                    </p>
+                </div>
+                <div class="msg">
+                    <span>
+                        <span>还不是寺库会员？</span>
+                        <span class="free" style="color: #f19108;">免费注册</span>
+                    </span>
+                    <span class="forget">忘记密码？</span>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="nfooter">
+                <ul class="nfooterList">
+                    <li>
+                        <p>新手指南</p>
+                        <p>付款方式</p>
+                        <p>物流配送</p>
+                        <p>售后服务</p>
+                    </li>
+                    <li>
+                        <p>寺库微博</p>
+                        <p>友情链接</p>
+                        <p>奢侈品热词</p>
+                    </li>
+                    <li>
+                        <p>加入寺库</p>
+                        <p>联系我们</p>
+                        <p>关于寺库</p>
+                        <p>帮助中心</p>
+                    </li>
+                    <li>
+                        <p>寺库奢侈品养护</p>
+                        <p>寺库招商</p>
+                        <p>寺库加盟店</p>
+                    </li>
+                </ul>
+                <div class="nfooterInfo">
+                    <p class="pInfo">
+                        <span>统一社会信用代码：91110102689248179K</span>
+                        <span><img src="../img/guohui.png" alt=""> 京公安备11010102001392</span>
+                        <span>京ICP证110119号 京ICP备09084709号-3</span>
+                        <span>ISO9001中国质量管理体系认证</span>
+                    </p>
+                    <p class="pInfo2">COPYRIGHT © 2010-2017 北京寺库商贸有限公司 版权所有</p>
+                    <p class="pInfo3">
+                        <img src="../img/f_01.jpg" alt="">
+                        <img src="../img/f_02.png" alt="">
+                        <img src="../img/f_03.png" alt="">
+                        <img src="../img/f_04.jpg" alt="">
+                        <img src="../img/f_05.jpg" alt="">
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

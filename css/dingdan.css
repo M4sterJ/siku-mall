@@ -1,0 +1,192 @@
+.main {
+    width: 100%;
+    background-color: #f6f6f6;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #323232;
+}
+.nHeader {
+    width: 990px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.centerBox {
+    width: 990px;
+    margin: 1px auto;
+    min-height: 400px;
+    background-color: #f9f9f9;
+    font-size: 12px;
+}
+.userTit {
+    height: 38px;
+    background-color: #ececec;
+    line-height: 38px;
+    text-indent: 24px;
+    font-weight: bold;
+    color: #666;
+}
+.userL {
+    padding: 0 0 10px 0;
+}
+.userMsg {
+    padding: 30px 35px 20px 35px;
+    background-color: #fff;
+}
+.change {
+    color: orange;
+    cursor: pointer;
+    padding-left: 20px;
+    transition: .5s;
+}
+.changeMsg {
+    height: 42px;
+    display: block;
+    overflow: hidden;
+}
+.newAddress {
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+}
+input {
+    outline: none;
+    padding: 2px 10px;
+}
+.ok {
+    width: 76px;
+    padding: 7px 18px;
+    background-color: #9d003f;
+    color: #fff;
+    font-family: microsoft yahei;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#errTips {
+    display: none;
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+}
+.newAdd {
+    width: 100%;
+    font-size: 12px;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+    padding-top: 20px;
+}
+.nAd {
+    padding: 5px 0;
+    margin: 10px 0;
+}
+.nAd select{
+    width: 193px;
+    margin-left: 9px;
+    padding:4px 0;
+    color: #666;
+}
+.nPh input{
+    margin: 10px;
+
+}
+.dell {
+    margin-left: 20px;
+    color: red;
+    cursor: pointer;
+}
+.methods {
+    border-bottom: 1px dashed #e5e5e5;
+    padding: 20px 0 20px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zhifuT,.shenfenz1 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 0 0 30px;
+}
+.zhifuC {
+    width: 100px;
+    padding: 7px 18px;
+    background-color: #9d003f;
+    color: #fff;
+    font-family: microsoft yahei;
+    display: block;
+    margin-top: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.shenfenC {
+    width: 30px;
+    padding: 7px 18px;
+    background-color: #9d003f;
+    color: #fff;
+    font-family: microsoft yahei;
+    display: block;
+    margin-top: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.qingdan {
+    background-color: #fff;
+}
+.qingdanTips {
+    height: 48px;
+    color: #666;
+    font-weight: bold;
+    background-color: #ececec;
+    line-height: 48px;
+    text-indent: 30px;
+}
+.qingdanTitle {
+    display: flex;
+    padding: 10px 0;
+}
+.qingdanTitle div {
+    width: 100px;
+}
+.qingdanTitle .proName {
+    width: 406px;
+    margin-left: 30px;
+}
+.fapiao {
+    padding: 20px 0 0 30px;
+}
+.tijiao {
+    margin-top: 10px;   
+    background-color: #fff;
+    padding: 10px;
+}
+.tijiao p {
+    margin: 10px 0;
+    text-align: end;
+}
+.back {
+    padding: 5px 10px;
+    border: 1px solid red;
+    color: red;
+    line-height: 25px;
+    cursor: pointer;
+}
+.tijiaodingdan {
+    padding: 10px 40px;
+    background-color: #e93b39;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    cursor: pointer;
+}
+.goBack {
+    cursor: pointer;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的购物车</title>
+    <link rel="stylesheet" href="../css/shoppingCart.css">
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/shoppingCart.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="nHeader">
+                <img src="../img/logo-login.png" alt="">
+                <img src="../img/cartTitle.jpg" alt="">
+            </div>
+        </div>
+        <div class="centerBox">
+            <p style="font-size: 12px;color: #666;margin: 10px 0;">
+                <span>admin</span>
+                <span style="color: red;cursor: pointer;">退出</span>
+            </p>
+            <div class="cartTitle">
+                <div class="selectAll">
+                    <input type="checkBox" name="" id="selectAll">
+                    <span>全选</span>
+                </div>
+                <div class="proName">商品名称</div>
+                <div class="fahuo">发货地</div>
+                <div class="vipPrice">会员价</div>
+                <div class="proCount">数量</div>
+                <div class="sumOfMoney">金额小计</div>
+                <div class="control">操作</div>
+            </div>
+            <div class="proList">
+                
+            </div>
+            <div class="settlement">
+                <div class="settlement1">
+                    <!-- <p>
+                        <input type="checkBox" name="" id="selectAll1">
+                        <span>全选</span>
+                        <span class="delPro" style="margin-left: 30px;display: none;">
+                            <i class="iconfont icon-el-icon-delete"></i>
+                            <span>删除选中商品</span>
+                        </span>
+                    </p> -->
+                    <p>
+                        <span>商品数量总计：<span class="goodsCount"></span> 件</span>
+                    </p>
+                </div>
+                <div class="settlement2">
+                    <span>包装数量总计：<span>0</span> 件</span>
+                </div>
+                <div class="settlement3">
+                    <span>返利库币：<span>0</span> 库币</span>
+                </div>
+                <div class="settlement4">
+                    <span>商品金额总计（不含税金和运费）：<span class="total" style="color: #e93b39;font-size: 30px;">0.00</span> </span>
+                </div>
+                <div class="settlementBtn">
+                    <div class="continue">继续购物</div>
+                    <div class="now">立即结算</div>
+                </div>
+            </div>
+            <div class="likeBox">
+                <p class="like">猜你喜欢</p>
+                <div class="lunbo">
+                    <div class="panel">
+                        <div class="showPanel">
+                            <img src="../img/lunbo1.png" alt="">
+                            <img src="../img/lunbo2.png" alt="">
+                            <img src="../img/lunbo3.png" alt="">
+                            <img src="../img/lunbo4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="left"><i class="iconfont icon-left"></i></div>
+                    <div class="right"><i class="iconfont icon-htbArrowright02"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <img style="display: block; margin: 0 auto;" src="../img/foo.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
